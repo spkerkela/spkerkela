@@ -21,10 +21,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spkerkela.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spkerkela
 github_username:  spkerkela
+projects:
+  - average_color:
+    url: https://averagecolor.com
+    name: Get Average Color of Image
+  - lorem_gen:
+    url: https://github.com/spkerkela/lorem
+    name: CLI Lorem Ipsum Generator
 mastodon:
   - technology:
     username: spk
     instance: mastodon.technology
+
+header_pages:
+  - about.md
+  - projects.md
 
 # Build settings
 markdown: kramdown
