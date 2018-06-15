@@ -28,6 +28,10 @@ projects:
   - lorem_gen:
     url: https://github.com/spkerkela/lorem
     name: CLI Lorem Ipsum Generator
+  - gem_game:
+    url: https://spkerkela.github.io/gemhunter/
+    name: Simple Web Game
+
 mastodon:
   - technology:
     username: spk
