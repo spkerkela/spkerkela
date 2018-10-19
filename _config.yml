@@ -1,61 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: spkerkela.com
 email: simo-pekka.kerkela@spkerkela.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My personal site where I intend to post my thoughts on things important to me, such as  software, music and wellbeing.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://spkerkela.com" # the base hostname & protocol for your site, e.g. http://example.com
+description: >-
+  My personal site where I intend to post my thoughts on things important to me,
+  such as  software, music and wellbeing.
+baseurl: ''
+url: 'https://spkerkela.com'
 twitter_username: spkerkela
-github_username:  spkerkela
+github_username: spkerkela
+micro_blog_username: spkerkela
 projects:
-  - average_color:
-    url: https://averagecolor.com
+  - average_color: null
+    url: 'https://averagecolor.com'
     name: Get Average Color of Image
-  - lorem_gen:
-    url: https://github.com/spkerkela/lorem
+  - lorem_gen: null
+    url: 'https://github.com/spkerkela/lorem'
     name: CLI Lorem Ipsum Generator
-  - gem_game:
-    url: https://spkerkela.github.io/gemhunter/
+  - gem_game: null
+    url: 'https://spkerkela.github.io/gemhunter/'
     name: Simple Web Game
-
 mastodon:
-  - technology:
+  - technology: null
     username: spk
     instance: mastodon.technology
-
 header_pages:
   - about.md
   - projects.md
-
-# Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
