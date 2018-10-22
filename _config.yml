@@ -8,6 +8,8 @@ url: 'https://spkerkela.com'
 twitter_username: spkerkela
 github_username: spkerkela
 micro_blog_username: spkerkela
+gitea_username: spkerkela
+githost: 'git.spkerkela.com'
 projects:
   - average_color: null
     url: 'https://averagecolor.com'
