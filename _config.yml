@@ -20,6 +20,9 @@ projects:
   - gem_game: null
     url: 'https://spkerkela.github.io/gemhunter/'
     name: Simple Web Game
+  - sodotory: null
+    url: 'https://sodotory.com/'
+    name: Band Website
 mastodon:
   - technology: null
     username: spk
